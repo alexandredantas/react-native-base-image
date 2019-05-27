@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 ENV JAVA_HOME=/opt/zulu8.38.0.13-ca-jdk8.0.212-linux_x64 \ 
-    PATH=$JAVA_HOME/bin:$PATH \
+    PATH=/opt/zulu8.38.0.13-ca-jdk8.0.212-linux_x64/bin:$PATH \
     ANDROID_HOME=/opt/android \
     TZ=America/Sao_Paulo
 
